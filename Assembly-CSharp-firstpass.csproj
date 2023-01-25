@@ -301,14 +301,14 @@
     <Reference Include="ReportGeneratorMerged">
         <HintPath>C:\Users\dnsgi\OneDrive\Desktop\Github\Projetos\Unity\ui-animations\Library\PackageCache\com.unity.testtools.codecoverage@1.2.2\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
+    <Reference Include="DOTween">
+        <HintPath>C:\Users\dnsgi\OneDrive\Desktop\Github\Projetos\Unity\ui-animations\Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
         <HintPath>C:\Users\dnsgi\OneDrive\Desktop\Github\Projetos\Unity\ui-animations\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
         <HintPath>C:\Users\dnsgi\OneDrive\Desktop\Github\Projetos\Unity\ui-animations\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween">
-        <HintPath>C:\Users\dnsgi\OneDrive\Desktop\Github\Projetos\Unity\ui-animations\Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>D:\Unity\2022.2.2f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
@@ -678,6 +678,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="NaughtyAttributes.Core.csproj">
+      <Project>{804d27fb-666b-1a10-690a-297474ba3a5b}</Project>
+      <Name>NaughtyAttributes.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.EditorCoroutines.Editor.csproj">
       <Project>{0ca0418d-029d-8ad4-91a2-adf894b6c0dc}</Project>
       <Name>Unity.EditorCoroutines.Editor</Name>
@@ -710,10 +714,6 @@
       <Project>{2b8ea338-8ab8-f40b-83b6-c1f4ce722c7c}</Project>
       <Name>Unity.VisualScripting.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{4238f334-2fa8-f794-ad79-f08ce2dd368b}</Project>
-      <Name>UnityEngine.UI</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.Editor.csproj">
       <Project>{595a2c43-73be-b936-aee3-f4d50906c776}</Project>
       <Name>Unity.VisualScripting.Core.Editor</Name>
@@ -722,9 +722,21 @@
       <Project>{7710efd6-6428-ba33-a514-6f6ec5af3538}</Project>
       <Name>Unity.Rider.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.csproj">
+      <Project>{4238f334-2fa8-f794-ad79-f08ce2dd368b}</Project>
+      <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="NaughtyAttributes.Editor.csproj">
+      <Project>{c0cd188a-d2f5-d9ac-af95-310fe10da27c}</Project>
+      <Name>NaughtyAttributes.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
       <Project>{96a03261-daea-92f7-4feb-3d20c062fae5}</Project>
       <Name>Unity.VisualScripting.Flow</Name>
+    </ProjectReference>
+    <ProjectReference Include="NaughtyAttributes.Test.csproj">
+      <Project>{5da5b794-104c-02cb-ae98-efe1327ea2bb}</Project>
+      <Name>NaughtyAttributes.Test</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj">
       <Project>{1e2b7c52-c77d-8b53-c8f8-877fa22941da}</Project>
