@@ -364,6 +364,7 @@
 -analyzer:"D:/Unity/2022.2.2f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/Buttons/ButtonScaler.cs"
 "Assets/Scripts/Buttons/ButtonStartGame.cs"
+"Assets/Scripts/Car/Car.cs"
 "Assets/Scripts/Plataformer2D/Core/Singleton/Singleton.cs"
 "Assets/Scripts/Screen/ScreenBase.cs"
 "Assets/Scripts/Screen/ScreenHelper.cs"

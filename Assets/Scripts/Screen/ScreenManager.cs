@@ -11,14 +11,23 @@ namespace Screens
     {
         public List<ScreenBase> screenBases;
 
+        public List<GameObject> objs;
+
         public ScreenType startScreen = ScreenType.Panel;
 
         private ScreenBase _currentScreen;
+
+        public Vector3 vec;
 
         private void Start() 
         {
             HideAll();
             ShowByType(startScreen);
+        }
+
+        private void GetRamdom()
+        {
+           screenBases[Random.Range(0, screenBases.Count)].animationDuration = 1;
         }
 
         public void ShowByType(ScreenType type)

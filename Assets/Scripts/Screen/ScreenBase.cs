@@ -9,7 +9,6 @@ namespace Screens{
 
     public enum ScreenType 
     {
-
         Panel,
         Info_Panel,
         Shop
